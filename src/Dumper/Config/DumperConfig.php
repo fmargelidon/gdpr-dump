@@ -50,6 +50,7 @@ class DumperConfig
 
     private array $dumpSettings = [
         'output' => 'php://stdout',
+        'databases" => true,
         'add_drop_database' => false,
         'add_drop_table' => true, // false in MySQLDump-PHP
         'add_drop_trigger' => true,
